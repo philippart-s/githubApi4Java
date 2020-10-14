@@ -18,32 +18,5 @@
       <artifactId>github-api</artifactId>
       <version>1.116</version>
     </dependency>
-    <!-- Tests-->
-    <!-- Mock serveur HTTP. -->
-    <dependency>
-      <groupId>org.mock-server</groupId>
-      <artifactId>mockserver-netty</artifactId>
-      <version>5.11.1</version>
-      <scope>test</scope>
-    </dependency>
-    <!-- Pour annotation dans les tests avec MockServer -->
-    <dependency>
-      <groupId>org.mock-server</groupId>
-      <artifactId>mockserver-junit-jupiter</artifactId>
-      <version>5.11.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>${junit.version}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>${junit.version}</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 </project>
